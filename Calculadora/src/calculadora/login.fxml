@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC1C1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.LoginController">
+   <children>
+      <ImageView fitHeight="20.0" fitWidth="25.0" layoutX="196.0" layoutY="210.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Calculadora/user-icon-2098873_960_720.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="usuario" layoutX="232.0" layoutY="208.0" />
+      <TextField fx:id="senha" layoutX="232.0" layoutY="245.0" />
+      <ImageView fitHeight="20.0" fitWidth="25.0" layoutX="196.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../Downloads/Calculadora/locked-padlock_icon-icons.com_72677.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="211.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CalcHistory">
+         <font>
+            <Font name="Constantia Bold Italic" size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="263.0" layoutY="293.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" style="-fx-background-color: black;" text="Acessar" textFill="#f5f4f4" />
+   </children>
+</AnchorPane>

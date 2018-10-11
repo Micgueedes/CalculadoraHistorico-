@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculadora.CalculadoraController">
+   <children>
+      <Label layoutX="28.0" layoutY="165.0" prefHeight="17.0" prefWidth="58.0" text="Número 1:" />
+      <Label fx:id="n11" layoutX="28.0" layoutY="207.0" prefHeight="17.0" prefWidth="58.0" text="Número 2:" />
+      <TextField fx:id="n1" layoutX="97.0" layoutY="159.0" prefHeight="30.0" prefWidth="185.0" />
+      <TextField fx:id="n2" layoutX="97.0" layoutY="201.0" prefHeight="30.0" prefWidth="185.0" />
+      <Button fx:id="multi" layoutX="198.0" layoutY="242.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="30.0" prefWidth="43.0" text="*" />
+      <Button fx:id="div" layoutX="139.0" layoutY="242.0" mnemonicParsing="false" onAction="#divisao" prefHeight="30.0" prefWidth="43.0" text="/" />
+      <Button fx:id="soma" layoutX="198.0" layoutY="282.0" mnemonicParsing="false" onAction="#somar" prefHeight="30.0" prefWidth="43.0" text="+" />
+      <Button fx:id="sub" layoutX="139.0" layoutY="282.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="30.0" prefWidth="43.0" text="-">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="Resultado" layoutX="97.0" layoutY="86.0" prefHeight="53.0" prefWidth="185.0" />
+      <Label fx:id="n111" layoutX="23.0" layoutY="104.0" prefHeight="17.0" prefWidth="69.0" text="RESULTADO" />
+      <Label layoutX="61.0" layoutY="14.0" prefHeight="53.0" prefWidth="224.0" text=" Calculadora">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <Separator layoutX="326.0" layoutY="13.0" orientation="VERTICAL" prefHeight="369.0" prefWidth="2.0" />
+      <Label layoutX="349.0" layoutY="14.0" prefHeight="53.0" prefWidth="224.0" text="    Histórico">
+         <font>
+            <Font name="System Italic" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="historico" layoutX="366.0" layoutY="78.0" prefHeight="262.0" prefWidth="205.0" />
+   </children>
+</AnchorPane>
