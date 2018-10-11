@@ -7,7 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculadora.CalculadoraController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFC1C1;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Calculadora.CalculadoraController">
    <children>
       <Label layoutX="28.0" layoutY="165.0" prefHeight="17.0" prefWidth="58.0" text="Número 1:" />
       <Label fx:id="n11" layoutX="28.0" layoutY="207.0" prefHeight="17.0" prefWidth="58.0" text="Número 2:" />

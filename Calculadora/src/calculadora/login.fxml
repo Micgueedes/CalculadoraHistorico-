@@ -22,11 +22,12 @@
             <Image url="@../../../../../../Downloads/Calculadora/locked-padlock_icon-icons.com_72677.png" />
          </image>
       </ImageView>
-      <Text layoutX="211.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CalcHistory">
+      <Text layoutX="211.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Calculadora">
          <font>
             <Font name="Constantia Bold Italic" size="36.0" />
          </font>
       </Text>
-      <Button layoutX="263.0" layoutY="293.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="88.0" style="-fx-background-color: black;" text="Acessar" textFill="#f5f4f4" />
+      <Button fx:id="btnacessar" layoutX="263.0" layoutY="293.0" mnemonicParsing="false" onAction="#acessar" prefHeight="37.0" prefWidth="88.0" style="-fx-background-color: black;" text="Acessar" textFill="#f5f4f4" />
+      <Button fx:id="btCadastrar" layoutX="263.0" layoutY="338.0" mnemonicParsing="false" onAction="#cadastrar" prefHeight="37.0" prefWidth="88.0" style="-fx-background-color: black;" text="Cadastrar" textFill="#f5f4f4" />
    </children>
 </AnchorPane>
